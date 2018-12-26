@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Project Title
+
+Machine Translation of IPO Documents
 
 You can use the [editor on GitHub](https://github.com/language-tech-dlc/iponmt/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
