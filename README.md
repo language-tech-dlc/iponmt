@@ -1,37 +1,19 @@
 ## Machine Translation of IPO Documents
 
-You can use the [editor on GitHub](https://github.com/language-tech-dlc/iponmt/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Aim
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project leverages on the facilities of HSUHK’s HK$7M RGC-funded Deep Learning Centre and the expertise of its School of Translation to enhance the performance of Machine Translation (MT) from English to Chinese for HKEX documents, such as IPO documents and company annual reports.
 
-### Markdown
+### IPO Documents
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+IPO documents (over 100 per year) and annual reports (for about 2000 listed companies) are usually prepared by lawyers and accountants in English and need to be translated to Chinese as required by HKEX. The translation task, usually handled by printing companies, is costly (about HK$0.5M per job) and labor-intensive.
 
-```markdown
-Syntax highlighted code block
+### Deep Learning and Machine Translation
 
-# Header 1
-## Header 2
-### Header 3
+Many IT-related companies have been investing heavily on Deep Learning technology which, based on the neural network architecture and large training data, has shown great success in many applications, in particular MT. Restricted domain MT should have better performance in terms of quality, cost and speed and is ripe for commercialization. IPO documents will be a testbed for the idea of restricted domain translation and the prototype can be readily extended to other domains (legal and government) and regions in China. 
 
-- Bulleted
-- List
+### Relevant Files
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/language-tech-dlc/iponmt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Word Embedding based on IPO Documents (English)
+Word Embedding based on IPO Documents (Chinese)
+Prototype (English-Chinese MT)
